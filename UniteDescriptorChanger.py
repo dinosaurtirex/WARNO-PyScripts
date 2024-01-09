@@ -32,6 +32,7 @@ def change_all_units_description(
                 new_buffer += (
                     f"            UnitConcealmentBonus = {UnitConcealmentBonus}"
                 )
+                continue
             new_buffer += line
     return new_buffer
 
